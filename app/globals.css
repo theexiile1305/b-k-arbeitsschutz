@@ -1,6 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-bk-dark: #00205a;
+  --color-bk-mid: #004f9e;
+  --color-bk-light: #009ee3;
+  --color-bk-gray: #7b7f83;
+  --color-bk-text: #414042;
+
+  --font-bk-heading: Inter, system-ui, sans-serif;
+  --font-bk-body: Inter, system-ui, sans-serif;
+}
 
 @layer base {
   html {
