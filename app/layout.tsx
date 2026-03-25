@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description:
     "BK Arbeitsschutz bietet professionelle Lösungen in Arbeitsschutz, Sicherheitstraining, Prüfservice und Brandschutz für Unternehmen.",
   openGraph: {
-    images: [{ url: "/logo.png" }],
+    images: [{ url: "/bk.png" }],
     locale: "de_DE",
     type: "website",
   },

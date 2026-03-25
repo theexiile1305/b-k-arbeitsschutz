@@ -9,7 +9,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <Image
-              src="/logo.png"
+              src="/bk.png"
               alt="BK Arbeitsschutz"
               width={140}
               height={48}

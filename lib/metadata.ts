@@ -11,7 +11,7 @@ export function buildMetadata(title: string, description?: string): Metadata {
     openGraph: {
       title: `${title} | BK Arbeitsschutz`,
       description: description ?? defaultDescription,
-      images: [{ url: "/logo.png" }],
+      images: [{ url: "/bk.png" }],
       locale: "de_DE",
       type: "website",
     },
@@ -24,7 +24,7 @@ export const defaultMetadata: Metadata = {
   openGraph: {
     title: defaultTitle,
     description: defaultDescription,
-    images: [{ url: "/logo.png" }],
+    images: [{ url: "/bk.png" }],
     locale: "de_DE",
     type: "website",
   },
