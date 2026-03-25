@@ -46,7 +46,7 @@ export default function Analysen() {
       <CTABlock
         title="Jetzt Analyse beauftragen"
         buttonText="Beratungstermin buchen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

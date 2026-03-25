@@ -42,7 +42,7 @@ export default function Regale() {
       <CTABlock
         title="Regalprüfung beauftragen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

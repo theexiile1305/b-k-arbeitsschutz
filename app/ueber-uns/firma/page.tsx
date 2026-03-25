@@ -60,7 +60,7 @@ export default function Firma() {
       <CTABlock
         title="Lernen Sie uns persönlich kennen"
         buttonText="Beratungstermin buchen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

@@ -45,7 +45,7 @@ export default function Elektrotechnik() {
       <CTABlock
         title="Elektrotechnik-Schulung anfragen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

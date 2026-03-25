@@ -16,21 +16,18 @@ export default function Impressum() {
           <p>
             BK Arbeitsschutz
             <br />
-            Kilian Berger
+            Am Bichl 6a
             <br />
-            {/* TODO: Bitte vollständige Adresse eintragen */}
-            Musterstraße 1
-            <br />
-            12345 Musterstadt
+            82335 Berg
           </p>
         </section>
 
         <section>
           <h2 className="text-xl font-bold text-bk-dark mb-2 font-bk-heading">Kontakt</h2>
           <p>
-            Telefon: {/* TODO: Telefonnummer */}+49 000 000000
+            Telefon: <a href="tel:+498171386711" className="text-bk-blue hover:underline">+49 (0) 8171 38 67 11</a>
             <br />
-            E-Mail: {/* TODO: E-Mail Adresse */}info@bk-arbeitsschutz.de
+            E-Mail: <a href="mailto:info@b-k-arbeitsschutz.de" className="text-bk-blue hover:underline">info@b-k-arbeitsschutz.de</a>
           </p>
         </section>
 
@@ -39,8 +36,7 @@ export default function Impressum() {
           <p>
             Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
             <br />
-            {/* TODO: USt-IdNr. eintragen */}
-            DE000000000
+            DE342770875
           </p>
         </section>
 
@@ -51,8 +47,7 @@ export default function Impressum() {
           <p>
             Kilian Berger
             <br />
-            {/* TODO: Adresse */}
-            Musterstraße 1, 12345 Musterstadt
+            Am Bichl 6a, 82335 Berg
           </p>
         </section>
 

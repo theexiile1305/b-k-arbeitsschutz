@@ -48,7 +48,7 @@ export default function Sicherheitsbeauftragter() {
       <CTABlock
         title="Sicherheitsbeauftragte ausbilden"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

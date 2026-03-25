@@ -76,7 +76,7 @@ export default function Pruefservice() {
       <CTABlock
         title="Prüftermin vereinbaren"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

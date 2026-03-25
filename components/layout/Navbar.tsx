@@ -137,10 +137,10 @@ export default function Navbar() {
           {/* CTA Button (desktop) */}
           <div className="hidden lg:block">
             <Link
-              href="/beratungstermin"
+              href="/kontakt"
               className="bg-bk-light hover:bg-bk-mid text-white text-sm font-semibold px-4 py-2 rounded transition-colors"
             >
-              Beratungstermin
+              Kontakt
             </Link>
           </div>
 
@@ -236,11 +236,11 @@ export default function Navbar() {
               </div>
             ))}
             <Link
-              href="/beratungstermin"
+              href="/kontakt"
               onClick={() => setMobileOpen(false)}
               className="block mt-3 bg-bk-light text-white text-center py-2 rounded font-semibold text-sm"
             >
-              Beratungstermin buchen
+              Kontakt
             </Link>
           </div>
         </div>

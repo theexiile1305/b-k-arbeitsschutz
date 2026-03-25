@@ -43,7 +43,7 @@ export default function KraftbetriebseneTore() {
       <CTABlock
         title="Torprüfung beauftragen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

@@ -73,7 +73,7 @@ export default function Akademie() {
       <CTABlock
         title="Schulung für Ihr Team anfragen"
         buttonText="Beratungstermin buchen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

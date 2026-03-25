@@ -48,7 +48,7 @@ export default function Begehungen() {
       <CTABlock
         title="Begehung beauftragen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

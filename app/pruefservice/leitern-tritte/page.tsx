@@ -42,7 +42,7 @@ export default function LeiternTritte() {
       <CTABlock
         title="Leitern prüfen lassen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

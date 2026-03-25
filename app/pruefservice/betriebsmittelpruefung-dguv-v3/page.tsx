@@ -48,7 +48,7 @@ export default function BetriebsmittelpruefungDGUV() {
       <CTABlock
         title="DGUV V3 Prüfung beauftragen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

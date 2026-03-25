@@ -77,7 +77,7 @@ export default function Arbeitsschutz() {
       <CTABlock
         title="Jetzt Arbeitsschutz optimieren"
         buttonText="Beratungstermin buchen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

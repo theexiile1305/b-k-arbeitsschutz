@@ -42,7 +42,7 @@ export default function UVV() {
       <CTABlock
         title="UVV-Prüfung beauftragen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

@@ -69,7 +69,7 @@ export default function Mitarbeiter() {
       <CTABlock
         title="Sprechen Sie mit unserem Team"
         buttonText="Jetzt Termin buchen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

@@ -70,7 +70,7 @@ export default function UeberUns() {
         title="Sprechen Sie uns an"
         subtitle="Wir freuen uns auf Ihre Anfrage."
         buttonText="Beratungstermin buchen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

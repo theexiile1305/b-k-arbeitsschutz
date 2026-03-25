@@ -49,7 +49,7 @@ export default function Exoskelett() {
       <CTABlock
         title="Exoskelett-Beratung anfragen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

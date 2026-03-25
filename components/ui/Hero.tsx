@@ -9,6 +9,7 @@ interface HeroProps {
   ctaText?: string;
   ctaHref?: string;
   overlay?: boolean;
+  sloganSrc?: string;
 }
 
 export default function Hero({
@@ -31,8 +32,8 @@ export default function Hero({
         sizes="100vw"
       />
       {overlay && <div className="absolute inset-0 bg-bk-dark/60" />}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-        <div className="max-w-2xl">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full flex items-start justify-between gap-8">
+        <div className="max-w-xl ml-auto">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white font-bk-heading leading-tight mb-6">
             {title}
           </h1>

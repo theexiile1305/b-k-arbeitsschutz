@@ -60,7 +60,7 @@ export default function ArbeitsmittelPSA() {
       <CTABlock
         title="PSA-Beratung anfragen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

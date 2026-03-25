@@ -11,7 +11,7 @@ export async function POST(request: NextRequest) {
     // TODO: Wire up to email service (e.g. Resend, SendGrid, Nodemailer)
     console.log("Contact form submission:", { name, email, telefon, nachricht });
 
-    return NextResponse.redirect(new URL("/beratungstermin?success=1", request.url));
+    return NextResponse.redirect(new URL("/kontakt?success=1", request.url));
   } catch (error) {
     console.error("Contact form error:", error);
     return NextResponse.json({ error: "Fehler beim Senden der Nachricht." }, { status: 500 });

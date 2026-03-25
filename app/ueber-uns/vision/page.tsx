@@ -63,7 +63,7 @@ export default function Vision() {
       <CTABlock
         title="Gemeinsam Sicherheit gestalten"
         buttonText="Jetzt Termin buchen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

@@ -86,7 +86,7 @@ const services = [
     title: "Beratungstermin",
     description:
       "Sichern Sie sich jetzt ein unverbindliches Erstgespräch mit unseren Experten - persönlich oder online.",
-    href: "/beratungstermin",
+    href: "/kontakt",
     icon: (
       <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path

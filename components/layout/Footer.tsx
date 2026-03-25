@@ -18,6 +18,12 @@ export default function Footer() {
             <p className="text-sm text-gray-300 leading-relaxed">
               Ihr Anliegen, Unsere Aufgabe, Ihr Erfolg.
             </p>
+            <p className="text-sm text-gray-300 mt-4">
+              Am Bichl 6a<br />
+              82335 Berg, Deutschland<br />
+              <a href="tel:+498171386711" className="hover:text-white transition-colors">+49 (0) 8171 38 67 11</a><br />
+              <a href="mailto:info@b-k-arbeitsschutz.de" className="hover:text-white transition-colors">info@b-k-arbeitsschutz.de</a>
+            </p>
           </div>
 
           {/* Services */}
@@ -76,7 +82,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/beratungstermin" className="hover:text-white transition-colors">
+                <Link href="/kontakt" className="hover:text-white transition-colors">
                   Beratungstermin
                 </Link>
               </li>

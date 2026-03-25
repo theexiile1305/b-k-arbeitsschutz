@@ -46,7 +46,7 @@ export default function Brandschutzhelfer() {
       <CTABlock
         title="Brandschutzhelfer ausbilden lassen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

@@ -23,6 +23,27 @@ const testimonials = [
     company: "Handwerksbetrieb, Baden-Württemberg",
     area: "Prüfservice",
   },
+  {
+    quote:
+      "Dank der professionellen Brandschutzberatung durch BK Arbeitsschutz sind wir nun optimal auf den Ernstfall vorbereitet. Die Begehungen wurden gründlich und effizient durchgeführt.",
+    author: "Julia H.",
+    company: "Pflegeeinrichtung, Bayern",
+    area: "Brandschutz",
+  },
+  {
+    quote:
+      "Die DGUV V3-Prüfungen wurden schnell und reibungslos organisiert. Alle Unterlagen waren sofort verfügbar – das hat uns bei der nächsten Betriebsprüfung sehr geholfen.",
+    author: "Stefan W.",
+    company: "Industriebetrieb, Sachsen",
+    area: "Prüfservice",
+  },
+  {
+    quote:
+      "Unser Sicherheitsbeauftragter hat die Ausbildung bei der BK Akademie absolviert und ist seitdem ein echter Gewinn für unser Unternehmen. Sehr empfehlenswerte Kurse!",
+    author: "Andrea B.",
+    company: "Einzelhandel, Hessen",
+    area: "Akademie",
+  },
 ];
 
 export default function ReferenzenSection() {

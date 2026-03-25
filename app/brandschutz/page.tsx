@@ -74,7 +74,7 @@ export default function Brandschutz() {
       <CTABlock
         title="Brandschutz jetzt optimieren"
         buttonText="Beratungstermin buchen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

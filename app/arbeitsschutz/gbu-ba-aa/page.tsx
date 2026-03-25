@@ -55,7 +55,7 @@ export default function GBU() {
       <CTABlock
         title="GBU & Anweisungen professionell erstellen lassen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

@@ -51,7 +51,7 @@ export default function Unterweisungen() {
       <CTABlock
         title="Unterweisungen professionell organisieren"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

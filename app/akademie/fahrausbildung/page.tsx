@@ -46,7 +46,7 @@ export default function Fahrausbildung() {
       <CTABlock
         title="Fahrausbildung anfragen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

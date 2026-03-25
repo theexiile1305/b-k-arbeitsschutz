@@ -53,7 +53,7 @@ export default function BetreuungDGUV() {
       <CTABlock
         title="Jetzt DGUV V2 Betreuung anfragen"
         buttonText="Beratungstermin buchen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

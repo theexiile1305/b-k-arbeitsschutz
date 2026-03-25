@@ -50,7 +50,7 @@ export default function AngepassterGehoerschutz() {
       <CTABlock
         title="Gehörschutz anfragen"
         buttonText="Jetzt anfragen"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );

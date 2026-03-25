@@ -22,7 +22,7 @@ export default function Home() {
         title="Jetzt Beratungstermin buchen"
         subtitle="Unverbindlich und kostenlos - sprechen Sie mit unseren Experten."
         buttonText="Termin vereinbaren"
-        buttonHref="/beratungstermin"
+        buttonHref="/kontakt"
       />
     </>
   );
