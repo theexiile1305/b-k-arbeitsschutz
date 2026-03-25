@@ -36,10 +36,13 @@ export default function Mitarbeiter() {
             </div>
             <div className="space-y-5 text-bk-gray leading-relaxed">
               <p>
-                Als Gründer und Geschäftsführer von BK Arbeitsschutz verbindet Kilian Berger
-                fundiertes Fachwissen mit einem praxisorientierten Ansatz. Mit langjähriger
-                Erfahrung in der Arbeitssicherheit kennt er die realen Herausforderungen in
-                Betrieben aus erster Hand.
+                Als Gründer und Eigentümer von BK Arbeitsschutz verbindet Kilian Berger fundiertes
+                Fachwissen mit einem praxisorientierten Ansatz.
+              </p>
+              <p>
+                Mit langjähriger Erfahrung in der Arbeitssicherheit, dem Handwerk sowie dem
+                Managementbereich kennt er die realen Herausforderungen in Betrieben aus erster
+                Hand.
               </p>
               <p>
                 Sein Ziel: Nicht nur rechtliche Anforderungen erfüllen, sondern echte
@@ -49,9 +52,13 @@ export default function Mitarbeiter() {
               <div className="mt-4 flex flex-wrap gap-2">
                 {[
                   "Fachkraft für Arbeitssicherheit",
+                  "Elektrofachkraft",
+                  "Zertifizierter Trainer",
+                  "Betriebswirt",
+                  "Handwerksmeister",
                   "DGUV V2 Betreuung",
                   "Brandschutzbeauftragter",
-                  "Schulungsexperte",
+                  "Gefahrstoffbeauftragter",
                 ].map((tag) => (
                   <span
                     key={tag}
