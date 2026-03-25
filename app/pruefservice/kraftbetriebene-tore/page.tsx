@@ -40,11 +40,7 @@ export default function KraftbetriebseneTore() {
         </div>
       </section>
 
-      <CTABlock
-        title="Torprüfung beauftragen"
-        buttonText="Jetzt anfragen"
-        buttonHref="/kontakt"
-      />
+      <CTABlock title="Torprüfung beauftragen" buttonText="Jetzt anfragen" buttonHref="/kontakt" />
     </>
   );
 }

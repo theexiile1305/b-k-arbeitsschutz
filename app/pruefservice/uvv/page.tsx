@@ -39,11 +39,7 @@ export default function UVV() {
         </div>
       </section>
 
-      <CTABlock
-        title="UVV-Prüfung beauftragen"
-        buttonText="Jetzt anfragen"
-        buttonHref="/kontakt"
-      />
+      <CTABlock title="UVV-Prüfung beauftragen" buttonText="Jetzt anfragen" buttonHref="/kontakt" />
     </>
   );
 }

@@ -43,11 +43,7 @@ export default function Fahrausbildung() {
         </div>
       </section>
 
-      <CTABlock
-        title="Fahrausbildung anfragen"
-        buttonText="Jetzt anfragen"
-        buttonHref="/kontakt"
-      />
+      <CTABlock title="Fahrausbildung anfragen" buttonText="Jetzt anfragen" buttonHref="/kontakt" />
     </>
   );
 }

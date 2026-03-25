@@ -45,11 +45,7 @@ export default function Begehungen() {
         </div>
       </section>
 
-      <CTABlock
-        title="Begehung beauftragen"
-        buttonText="Jetzt anfragen"
-        buttonHref="/kontakt"
-      />
+      <CTABlock title="Begehung beauftragen" buttonText="Jetzt anfragen" buttonHref="/kontakt" />
     </>
   );
 }

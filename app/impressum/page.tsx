@@ -25,9 +25,15 @@ export default function Impressum() {
         <section>
           <h2 className="text-xl font-bold text-bk-dark mb-2 font-bk-heading">Kontakt</h2>
           <p>
-            Telefon: <a href="tel:+498171386711" className="text-bk-blue hover:underline">+49 (0) 8171 38 67 11</a>
+            Telefon:{" "}
+            <a href="tel:+498171386711" className="text-bk-blue hover:underline">
+              +49 (0) 8171 38 67 11
+            </a>
             <br />
-            E-Mail: <a href="mailto:info@b-k-arbeitsschutz.de" className="text-bk-blue hover:underline">info@b-k-arbeitsschutz.de</a>
+            E-Mail:{" "}
+            <a href="mailto:info@b-k-arbeitsschutz.de" className="text-bk-blue hover:underline">
+              info@b-k-arbeitsschutz.de
+            </a>
           </p>
         </section>
 

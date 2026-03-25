@@ -47,11 +47,7 @@ export default function AngepassterGehoerschutz() {
         </div>
       </section>
 
-      <CTABlock
-        title="Gehörschutz anfragen"
-        buttonText="Jetzt anfragen"
-        buttonHref="/kontakt"
-      />
+      <CTABlock title="Gehörschutz anfragen" buttonText="Jetzt anfragen" buttonHref="/kontakt" />
     </>
   );
 }

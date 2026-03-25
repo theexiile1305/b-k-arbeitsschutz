@@ -57,11 +57,7 @@ export default function ArbeitsmittelPSA() {
         </div>
       </section>
 
-      <CTABlock
-        title="PSA-Beratung anfragen"
-        buttonText="Jetzt anfragen"
-        buttonHref="/kontakt"
-      />
+      <CTABlock title="PSA-Beratung anfragen" buttonText="Jetzt anfragen" buttonHref="/kontakt" />
     </>
   );
 }

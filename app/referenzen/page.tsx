@@ -31,27 +31,27 @@ const testimonials = [
     company: "Handwerksbetrieb, Olching",
     area: "Prüfservice",
   },
-  {                                                                                                                                
+  {
     quote:
-      "Dank der professionellen Brandschutzberatung durch BK Arbeitsschutz sind wir nun optimal auf den Ernstfall vorbereitet. Die Begehungen wurden gründlich und effizient durchgeführt.",                                                            
-    author: "Julia H.",                                                                                                            
-    company: "Pflegeeinrichtung, Starnberg",                                                                                          
-    area: "Brandschutz",                                                                                                           
-  },                                                                                                                               
-  {                                                                                                                                
-    quote:                                                                                                                         
-      "Die DGUV V3-Prüfungen wurden schnell und reibungslos organisiert. Alle Unterlagen waren sofort verfügbar - das hat uns bei der nächsten Betriebsprüfung sehr geholfen.",                                                                                
-    author: "Stefan W.",                                                                                                           
-    company: "Industriebetrieb, Kirchheim",                                                                                          
-    area: "Prüfservice",                                                                                                           
-  },                                                                                                                               
-  {                                                                                                                                
-    quote:                                                                                                                         
-      "Unser Sicherheitsbeauftragter hat die Ausbildung bei der BK Akademie absolviert und ist seitdem ein echter Gewinn für unser Unternehmen. Sehr empfehlenswerte Kurse!",                                                                                  
-    author: "Andrea B.",                                                                                                           
-    company: "Einzelhandel, Bad Tölz",                                                                                               
-    area: "Akademie",                                                                                                              
-  }, 
+      "Dank der professionellen Brandschutzberatung durch BK Arbeitsschutz sind wir nun optimal auf den Ernstfall vorbereitet. Die Begehungen wurden gründlich und effizient durchgeführt.",
+    author: "Julia H.",
+    company: "Pflegeeinrichtung, Starnberg",
+    area: "Brandschutz",
+  },
+  {
+    quote:
+      "Die DGUV V3-Prüfungen wurden schnell und reibungslos organisiert. Alle Unterlagen waren sofort verfügbar - das hat uns bei der nächsten Betriebsprüfung sehr geholfen.",
+    author: "Stefan W.",
+    company: "Industriebetrieb, Kirchheim",
+    area: "Prüfservice",
+  },
+  {
+    quote:
+      "Unser Sicherheitsbeauftragter hat die Ausbildung bei der BK Akademie absolviert und ist seitdem ein echter Gewinn für unser Unternehmen. Sehr empfehlenswerte Kurse!",
+    author: "Andrea B.",
+    company: "Einzelhandel, Bad Tölz",
+    area: "Akademie",
+  },
   {
     quote:
       "Kilian Berger hat uns von Anfang an als echter Partner begleitet - nicht als Dienstleister, sondern als Teil unseres Teams. Genau das haben wir gesucht.",
