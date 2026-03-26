@@ -72,7 +72,7 @@ export default function Navbar() {
   const [openMobileMenu, setOpenMobileMenu] = useState<string | null>(null);
 
   return (
-    <header className="sticky top-0 z-50 bg-bk-dark shadow-lg">
+    <header className="sticky top-0 z-50 bg-white shadow-md border-b border-gray-100">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -93,7 +93,7 @@ export default function Navbar() {
                 <div key={item.href} className="group relative">
                   <Link
                     href={item.href}
-                    className="flex items-center gap-1 px-3 py-2 text-sm text-white hover:text-bk-light transition-colors rounded"
+                    className="flex items-center gap-1 px-3 py-2 text-sm text-bk-dark hover:text-bk-light transition-colors rounded"
                   >
                     {item.label}
                     <svg
@@ -126,7 +126,7 @@ export default function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className="px-3 py-2 text-sm text-white hover:text-bk-light transition-colors rounded"
+                  className="px-3 py-2 text-sm text-bk-dark hover:text-bk-light transition-colors rounded"
                 >
                   {item.label}
                 </Link>
@@ -147,7 +147,7 @@ export default function Navbar() {
           {/* Hamburger (mobile) */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden text-white p-2 rounded focus:outline-none"
+            className="lg:hidden text-bk-dark p-2 rounded focus:outline-none"
             aria-label="Menü öffnen"
           >
             {mobileOpen ? (
@@ -175,7 +175,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {mobileOpen && (
-        <div className="lg:hidden bg-bk-dark border-t border-bk-mid">
+        <div className="lg:hidden bg-white border-t border-gray-200">
           <div className="px-4 py-3 space-y-1">
             {navItems.map((item) => (
               <div key={item.href}>
@@ -185,7 +185,7 @@ export default function Navbar() {
                       onClick={() =>
                         setOpenMobileMenu(openMobileMenu === item.href ? null : item.href)
                       }
-                      className="w-full flex items-center justify-between px-3 py-2 text-white hover:bg-bk-mid rounded text-sm"
+                      className="w-full flex items-center justify-between px-3 py-2 text-bk-dark hover:bg-bk-dark/10 rounded text-sm"
                     >
                       {item.label}
                       <svg
@@ -207,7 +207,7 @@ export default function Navbar() {
                         <Link
                           href={item.href}
                           onClick={() => setMobileOpen(false)}
-                          className="block px-3 py-2 text-bk-light text-sm hover:bg-bk-mid rounded"
+                          className="block px-3 py-2 text-bk-dark text-sm hover:bg-bk-dark/10 rounded"
                         >
                           Übersicht
                         </Link>
@@ -216,7 +216,7 @@ export default function Navbar() {
                             key={child.href}
                             href={child.href}
                             onClick={() => setMobileOpen(false)}
-                            className="block px-3 py-2 text-gray-300 text-sm hover:bg-bk-mid hover:text-white rounded"
+                            className="block px-3 py-2 text-bk-text text-sm hover:bg-bk-dark/10 hover:text-bk-dark rounded"
                           >
                             {child.label}
                           </Link>
@@ -228,7 +228,7 @@ export default function Navbar() {
                   <Link
                     href={item.href}
                     onClick={() => setMobileOpen(false)}
-                    className="block px-3 py-2 text-white hover:bg-bk-mid rounded text-sm"
+                    className="block px-3 py-2 text-bk-dark hover:bg-bk-dark/10 rounded text-sm"
                   >
                     {item.label}
                   </Link>
