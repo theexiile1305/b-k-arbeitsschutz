@@ -32,7 +32,7 @@ export default function Regale() {
             <ul className="list-disc list-inside space-y-2 ml-4">
               <li>Sichtprüfung aller Regalkomponenten</li>
               <li>Bewertung von Schäden nach Schadensklassen</li>
-              <li>Dokumentation mit Fotodokumentation</li>
+              <li>Dokumentation mit drohnengestützter Foto- und Videodokumentation</li>
               <li>Prüfbericht mit Handlungsempfehlungen</li>
             </ul>
           </div>
