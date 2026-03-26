@@ -27,7 +27,7 @@ export default function Mitarbeiter() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="flex justify-center">
               <Image
-                src="/employee_berger.png"
+                src="/employee_berger.jpg"
                 alt="Kilian Berger"
                 width={350}
                 height={450}
@@ -79,7 +79,7 @@ export default function Mitarbeiter() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="flex justify-center">
               <Image
-                src="/employee_gerlinde_bauer.png"
+                src="/employee_gerlinde_bauer.jpg"
                 alt="Gerlinde Bauer"
                 width={350}
                 height={450}
@@ -122,7 +122,7 @@ export default function Mitarbeiter() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="flex justify-center">
               <Image
-                src="/employee_yonas_habtemariam.png"
+                src="/employee_yonas_habtemariam.jpg"
                 alt="Yonas Habtemariam"
                 width={350}
                 height={450}
@@ -165,7 +165,7 @@ export default function Mitarbeiter() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="flex justify-center">
               <Image
-                src="/employee_markus_weber.JPG"
+                src="/employee_markus_weber.jpg"
                 alt="Markus Weber"
                 width={350}
                 height={450}
