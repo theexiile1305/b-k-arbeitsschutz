@@ -93,13 +93,12 @@ export default function Mitarbeiter() {
                 funktionieren und Kunden stets einen kompetenten Ansprechpartner haben.
               </p>
               <p>
-                Mit einem ausgeprägten Sinn für Struktur und Sorgfalt koordiniert sie
-                administrative Prozesse, Terminplanung und die interne Kommunikation - zuverlässig
-                und mit großem Engagement.
+                Mit einem ausgeprägten Sinn für Struktur und Sorgfalt koordiniert sie administrative
+                Prozesse, Terminplanung und die interne Kommunikation - zuverlässig und mit großem
+                Engagement.
               </p>
               <p>
-                Ihr Ziel: Dass sich Kunden und Kollegen jederzeit gut betreut und informiert
-                fühlen.
+                Ihr Ziel: Dass sich Kunden und Kollegen jederzeit gut betreut und informiert fühlen.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
                 {["Assistenz", "Backoffice", "Administration"].map((tag) => (
@@ -141,8 +140,8 @@ export default function Mitarbeiter() {
                 der Beurteilung komplexer Anlagen.
               </p>
               <p>
-                Sein Anspruch: Höchste Prüfqualität und klare, nachvollziehbare Ergebnisse für
-                jeden Kunden.
+                Sein Anspruch: Höchste Prüfqualität und klare, nachvollziehbare Ergebnisse für jeden
+                Kunden.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
                 {["Prüfservice", "Elektrotechnik", "EFK"].map((tag) => (
@@ -188,7 +187,14 @@ export default function Mitarbeiter() {
                 administrative Aufgaben zuverlässig ab.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                {["Prüfservice", "Regalinspekteur", "UVV Prüfer", "IT", "Drohnenpilot", "Administration"].map((tag) => (
+                {[
+                  "Prüfservice",
+                  "Regalinspekteur",
+                  "UVV Prüfer",
+                  "IT",
+                  "Drohnenpilot",
+                  "Administration",
+                ].map((tag) => (
                   <span
                     key={tag}
                     className="bg-bk-dark/10 text-bk-dark text-sm px-3 py-1 rounded-full"
