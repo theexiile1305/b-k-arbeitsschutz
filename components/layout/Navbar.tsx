@@ -78,7 +78,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 flex-shrink-0">
             <Image
-              src="/bk.png"
+              src="/bk_logo.png"
               alt="BK Arbeitsschutz Logo"
               width={120}
               height={40}

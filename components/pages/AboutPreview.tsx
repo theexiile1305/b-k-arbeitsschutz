@@ -42,10 +42,10 @@ export default function AboutPreview() {
             <div className="relative">
               <div className="absolute -inset-4 bg-bk-light/20 rounded-2xl" />
               <Image
-                src="/me.png"
+                src="/employee_kilian_berger.jpg"
                 alt="Kilian Berger - Geschäftsführer BK Arbeitsschutz"
-                width={400}
-                height={500}
+                width={350}
+                height={450}
                 className="relative rounded-xl shadow-xl object-cover object-top"
               />
             </div>

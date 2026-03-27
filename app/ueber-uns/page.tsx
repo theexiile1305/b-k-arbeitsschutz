@@ -55,10 +55,10 @@ export default function UeberUns() {
             </div>
             <div className="flex justify-center">
               <Image
-                src="/me.png"
+                src="/employee_kilian_berger.jpg"
                 alt="Kilian Berger - BK Arbeitsschutz"
-                width={400}
-                height={500}
+                width={350}
+                height={450}
                 className="rounded-xl shadow-xl object-cover object-top"
               />
             </div>

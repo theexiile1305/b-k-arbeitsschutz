@@ -27,7 +27,7 @@ export default function Mitarbeiter() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="flex justify-center">
               <Image
-                src="/employee_berger.jpg"
+                src="/employee_kilian_berger.jpg"
                 alt="Kilian Berger"
                 width={350}
                 height={450}
@@ -115,49 +115,6 @@ export default function Mitarbeiter() {
         </div>
       </section>
 
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading title="Yonas Habtemariam" subtitle="Prüfservice & Elektrotechnik" />
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="flex justify-center">
-              <Image
-                src="/employee_yonas_habtemariam.jpg"
-                alt="Yonas Habtemariam"
-                width={350}
-                height={450}
-                className="rounded-xl shadow-xl object-cover object-top"
-              />
-            </div>
-            <div className="space-y-5 text-bk-gray leading-relaxed">
-              <p>
-                Yonas Habtemariam bringt fundierte Fachkenntnisse in der Elektrotechnik und im
-                Prüfservice mit. Als Elektrofachkraft (EFK) führt er Prüfungen nach DGUV V3 und
-                weiteren Normen präzise und zuverlässig durch.
-              </p>
-              <p>
-                Seine technische Expertise und sein strukturiertes Vorgehen machen ihn zu einem
-                unverzichtbaren Teil des Prüfteams – ob bei elektrischen Betriebsmitteln oder bei
-                der Beurteilung komplexer Anlagen.
-              </p>
-              <p>
-                Sein Anspruch: Höchste Prüfqualität und klare, nachvollziehbare Ergebnisse für jeden
-                Kunden.
-              </p>
-              <div className="mt-4 flex flex-wrap gap-2">
-                {["Prüfservice", "Elektrotechnik", "EFK"].map((tag) => (
-                  <span
-                    key={tag}
-                    className="bg-bk-dark/10 text-bk-dark text-sm px-3 py-1 rounded-full"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading title="Markus Weber" subtitle="Prüfservice & Regalinspektion" />
@@ -195,6 +152,49 @@ export default function Mitarbeiter() {
                   "Drohnenpilot",
                   "Administration",
                 ].map((tag) => (
+                  <span
+                    key={tag}
+                    className="bg-bk-dark/10 text-bk-dark text-sm px-3 py-1 rounded-full"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading title="Yonas Habtemariam" subtitle="Prüfservice & Elektrotechnik" />
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div className="flex justify-center">
+              <Image
+                src="/employee_yonas_habtemariam.jpg"
+                alt="Yonas Habtemariam"
+                width={350}
+                height={450}
+                className="rounded-xl shadow-xl object-cover object-top"
+              />
+            </div>
+            <div className="space-y-5 text-bk-gray leading-relaxed">
+              <p>
+                Yonas Habtemariam bringt fundierte Fachkenntnisse in der Elektrotechnik und im
+                Prüfservice mit. Als Elektrofachkraft (EFK) führt er Prüfungen nach DGUV V3 und
+                weiteren Normen präzise und zuverlässig durch.
+              </p>
+              <p>
+                Seine technische Expertise und sein strukturiertes Vorgehen machen ihn zu einem
+                unverzichtbaren Teil des Prüfteams – ob bei elektrischen Betriebsmitteln oder bei
+                der Beurteilung komplexer Anlagen.
+              </p>
+              <p>
+                Sein Anspruch: Höchste Prüfqualität und klare, nachvollziehbare Ergebnisse für jeden
+                Kunden.
+              </p>
+              <div className="mt-4 flex flex-wrap gap-2">
+                {["Prüfservice", "Elektrotechnik", "EFK"].map((tag) => (
                   <span
                     key={tag}
                     className="bg-bk-dark/10 text-bk-dark text-sm px-3 py-1 rounded-full"
