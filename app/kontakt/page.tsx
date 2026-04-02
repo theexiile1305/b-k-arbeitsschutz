@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { buildMetadata } from "@/lib/metadata";
 import PageHeader from "@/components/ui/PageHeader";
+import ContactForm from "@/components/forms/ContactForm";
 
 export const metadata: Metadata = buildMetadata(
   "Kontakt",
@@ -115,79 +116,10 @@ export default function Kontakt() {
               />
             </div>
 
-            {/* Contact Form Fallback */}
+            {/* Contact Form */}
             <div>
               <SectionHeading title="Oder schreiben Sie uns" />
-              <form action="/api/contact" method="POST" className="space-y-5">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium text-bk-text mb-1">
-                    Name *
-                  </label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bk-light focus:border-transparent text-bk-text"
-                    placeholder="Ihr vollständiger Name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium text-bk-text mb-1">
-                    E-Mail *
-                  </label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bk-light focus:border-transparent text-bk-text"
-                    placeholder="ihre@email.de"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="telefon" className="block text-sm font-medium text-bk-text mb-1">
-                    Telefon *
-                  </label>
-                  <input
-                    type="tel"
-                    id="telefon"
-                    name="telefon"
-                    required
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bk-light focus:border-transparent text-bk-text"
-                    placeholder="+49 000 000000"
-                  />
-                </div>
-                <div>
-                  <label
-                    htmlFor="nachricht"
-                    className="block text-sm font-medium text-bk-text mb-1"
-                  >
-                    Nachricht *
-                  </label>
-                  <textarea
-                    id="nachricht"
-                    name="nachricht"
-                    required
-                    rows={5}
-                    className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bk-light focus:border-transparent text-bk-text resize-none"
-                    placeholder="Womit können wir Ihnen helfen?"
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full bg-bk-dark hover:bg-bk-mid text-white font-bold py-3 px-6 rounded-lg transition-colors"
-                >
-                  Nachricht senden
-                </button>
-                <p className="text-xs text-bk-gray">
-                  Mit dem Absenden stimmen Sie unserer{" "}
-                  <a href="/datenschutz" className="underline hover:text-bk-light">
-                    Datenschutzerklärung
-                  </a>{" "}
-                  zu.
-                </p>
-              </form>
+              <ContactForm />
             </div>
           </div>
         </div>

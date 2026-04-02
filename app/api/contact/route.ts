@@ -1,31 +1,37 @@
-import { NextRequest, NextResponse } from "next/server";
+import { Resend } from "resend";
+import { NextResponse } from "next/server";
 
-export async function POST(request: NextRequest) {
-  try {
-    const formData = await request.formData();
-    const source = formData.get("source");
-    const name = formData.get("name");
-    const vorname = formData.get("vorname");
-    const email = formData.get("email");
-    const telefon = formData.get("telefon");
-    const nachricht = formData.get("nachricht");
-    const kommentarfeld = formData.get("kommentarfeld");
+const resend = new Resend("re_fiPBjBGr_D1SdwwVm4LMqutpriuxmKgM3"); //process.env.RESEND_API_KEY);
 
-    // TODO: Wire up to email service (e.g. Resend, SendGrid, Nodemailer)
-    console.log("Contact form submission:", {
-      source,
-      name,
-      vorname,
-      email,
-      telefon,
-      nachricht,
-      kommentarfeld,
-    });
+export async function POST(request: Request) {
+  const body = await request.json();
+  const { name, vorname, email, telefon, nachricht, kommentarfeld, source } = body;
 
-    const redirectPath = source === "karriere" ? "/karriere?success=1" : "/kontakt?success=1";
-    return NextResponse.redirect(new URL(redirectPath, request.url));
-  } catch (error) {
-    console.error("Contact form error:", error);
-    return NextResponse.json({ error: "Fehler beim Senden der Nachricht." }, { status: 500 });
+  const messageText = source === "karriere" ? kommentarfeld : nachricht;
+
+  if (!name || !email || !telefon || !messageText) {
+    return NextResponse.json({ error: "Pflichtfelder fehlen." }, { status: 400 });
   }
+
+  const isKarriere = source === "karriere";
+
+  const subject = isKarriere ? `Bewerbung von ${vorname} ${name}` : `Kontaktanfrage von ${name}`;
+
+  const text = isKarriere
+    ? `Neue Bewerbung\n\nVorname: ${vorname}\nNachname: ${name}\nE-Mail: ${email}\nTelefon: ${telefon}\n\nNachricht:\n${kommentarfeld}`
+    : `Neue Kontaktanfrage\n\nName: ${name}\nE-Mail: ${email}\nTelefon: ${telefon}\n\nNachricht:\n${nachricht}`;
+
+  const { error } = await resend.emails.send({
+    from: "B-K Arbeitsschutz <info@b-k-arbeitsschutz.de>",
+    to: "info@b-k-arbeitsschutz.de",
+    replyTo: email,
+    subject,
+    text,
+  });
+
+  if (error) {
+    return NextResponse.json({ error: error.message }, { status: 500 });
+  }
+
+  return NextResponse.json({ success: true });
 }

@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 import SectionHeading from "@/components/ui/SectionHeading";
 import PageHeader from "@/components/ui/PageHeader";
+import KarriereForm from "@/components/forms/KarriereForm";
 
 export const metadata: Metadata = buildMetadata(
   "Karriere",
@@ -179,92 +180,7 @@ export default function Karriere() {
             title="Jetzt bewerben"
             subtitle="Haben Sie Interesse? Schreiben Sie uns - wir freuen uns auf Ihre Nachricht."
           />
-          <form action="/api/contact" method="POST" className="mt-8 space-y-5">
-            <input type="hidden" name="source" value="karriere" />
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-              <div>
-                <label htmlFor="name" className="block text-sm font-medium text-bk-text mb-1">
-                  Name *
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  required
-                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bk-light focus:border-transparent text-bk-text"
-                  placeholder="Nachname"
-                />
-              </div>
-              <div>
-                <label htmlFor="vorname" className="block text-sm font-medium text-bk-text mb-1">
-                  Vorname *
-                </label>
-                <input
-                  type="text"
-                  id="vorname"
-                  name="vorname"
-                  required
-                  className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bk-light focus:border-transparent text-bk-text"
-                  placeholder="Vorname"
-                />
-              </div>
-            </div>
-            <div>
-              <label htmlFor="email" className="block text-sm font-medium text-bk-text mb-1">
-                Mail *
-              </label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bk-light focus:border-transparent text-bk-text"
-                placeholder="ihre@email.de"
-              />
-            </div>
-            <div>
-              <label htmlFor="telefon" className="block text-sm font-medium text-bk-text mb-1">
-                Telefon *
-              </label>
-              <input
-                type="tel"
-                id="telefon"
-                name="telefon"
-                required
-                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bk-light focus:border-transparent text-bk-text"
-                placeholder="+49 000 000000"
-              />
-            </div>
-            <div>
-              <label
-                htmlFor="kommentarfeld"
-                className="block text-sm font-medium text-bk-text mb-1"
-              >
-                Kommentarfeld *
-              </label>
-              <textarea
-                id="kommentarfeld"
-                name="kommentarfeld"
-                required
-                rows={5}
-                className="w-full px-4 py-2.5 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-bk-light focus:border-transparent text-bk-text resize-none"
-                placeholder="Ihre Nachricht oder Bewerbung..."
-              />
-            </div>
-            <button
-              type="submit"
-              className="w-full bg-bk-dark hover:bg-bk-mid text-white font-bold py-3 px-6 rounded-lg transition-colors"
-            >
-              Bewerbung absenden
-            </button>
-            <p className="text-xs text-bk-gray">
-              Mit dem Absenden stimmen Sie unserer{" "}
-              <a href="/datenschutz" className="underline hover:text-bk-light">
-                Datenschutzerklärung
-              </a>{" "}
-              zu.
-            </p>
-          </form>
+          <KarriereForm />
         </div>
       </section>
     </>
