@@ -3,6 +3,7 @@ import Link from "next/link";
 import SectionHeading from "@/components/ui/SectionHeading";
 import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
+import PageHeader from "@/components/ui/PageHeader";
 
 export const metadata: Metadata = buildMetadata(
   "Arbeitsmittel & PSA",
@@ -12,16 +13,10 @@ export const metadata: Metadata = buildMetadata(
 export default function ArbeitsmittelPSA() {
   return (
     <>
-      <div className="bg-bk-dark py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-white font-bk-heading mb-4">
-            Arbeitsmittel & PSA
-          </h1>
-          <p className="text-gray-300 text-lg max-w-2xl">
-            Innovative Arbeitsmittel und maßgeschneiderte Schutzausrüstung für Ihren Betrieb.
-          </p>
-        </div>
-      </div>
+      <PageHeader
+        title="Arbeitsmittel & PSA"
+        subtitle="Innovative Arbeitsmittel und maßgeschneiderte Schutzausrüstung für Ihren Betrieb."
+      />
 
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

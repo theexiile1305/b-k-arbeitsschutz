@@ -3,6 +3,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import TestimonialCard from "@/components/ui/TestimonialCard";
 import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
+import PageHeader from "@/components/ui/PageHeader";
 
 export const metadata: Metadata = buildMetadata(
   "Referenzen",
@@ -78,14 +79,10 @@ const testimonials = [
 export default function Referenzen() {
   return (
     <>
-      <div className="bg-bk-dark py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-white font-bk-heading mb-4">Referenzen</h1>
-          <p className="text-gray-300 text-lg max-w-2xl">
-            Überzeugen Sie sich selbst - was unsere Kunden über uns sagen.
-          </p>
-        </div>
-      </div>
+      <PageHeader
+        title="Referenzen"
+        subtitle="Überzeugen Sie sich selbst - was unsere Kunden über uns sagen."
+      />
 
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

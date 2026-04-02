@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import SectionHeading from "@/components/ui/SectionHeading";
 import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
+import PageHeader from "@/components/ui/PageHeader";
 
 export const metadata: Metadata = buildMetadata(
   "Brandschutz",
@@ -11,14 +12,10 @@ export const metadata: Metadata = buildMetadata(
 export default function Brandschutz() {
   return (
     <>
-      <div className="bg-bk-dark py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-white font-bk-heading mb-4">Brandschutz</h1>
-          <p className="text-gray-300 text-lg max-w-2xl">
-            Umfassender Brandschutz für Ihren Betrieb - präventiv, organisatorisch und technisch.
-          </p>
-        </div>
-      </div>
+      <PageHeader
+        title="Brandschutz"
+        subtitle="Umfassender Brandschutz für Ihren Betrieb - präventiv, organisatorisch und technisch."
+      />
 
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

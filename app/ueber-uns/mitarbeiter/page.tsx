@@ -3,6 +3,7 @@ import Image from "next/image";
 import SectionHeading from "@/components/ui/SectionHeading";
 import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
+import PageHeader from "@/components/ui/PageHeader";
 
 export const metadata: Metadata = buildMetadata(
   "Mitarbeiter",
@@ -12,14 +13,10 @@ export const metadata: Metadata = buildMetadata(
 export default function Mitarbeiter() {
   return (
     <>
-      <div className="bg-bk-dark py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-white font-bk-heading mb-4">Unser Team</h1>
-          <p className="text-gray-300 text-lg max-w-2xl">
-            Menschen, die Sicherheit nicht nur als Beruf, sondern als Berufung verstehen.
-          </p>
-        </div>
-      </div>
+      <PageHeader
+        title="Unser Team"
+        subtitle="Menschen, die Sicherheit nicht nur als Beruf, sondern als Berufung verstehen."
+      />
 
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

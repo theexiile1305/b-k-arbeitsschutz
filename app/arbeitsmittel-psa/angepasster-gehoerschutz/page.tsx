@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import SectionHeading from "@/components/ui/SectionHeading";
 import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
+import PageHeader from "@/components/ui/PageHeader";
 
 export const metadata: Metadata = buildMetadata(
   "Angepasster Gehörschutz",
@@ -11,16 +12,10 @@ export const metadata: Metadata = buildMetadata(
 export default function AngepassterGehoerschutz() {
   return (
     <>
-      <div className="bg-bk-dark py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-white font-bk-heading mb-4">
-            Angepasster Gehörschutz
-          </h1>
-          <p className="text-gray-300 text-lg max-w-2xl">
-            Maßgeschneiderter Gehörschutz - für optimalen Schutz, der wirklich getragen wird.
-          </p>
-        </div>
-      </div>
+      <PageHeader
+        title="Angepasster Gehörschutz"
+        subtitle="Maßgeschneiderter Gehörschutz - für optimalen Schutz, der wirklich getragen wird."
+      />
 
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

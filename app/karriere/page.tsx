@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { buildMetadata } from "@/lib/metadata";
 import SectionHeading from "@/components/ui/SectionHeading";
+import PageHeader from "@/components/ui/PageHeader";
 
 export const metadata: Metadata = buildMetadata(
   "Karriere",
@@ -72,13 +73,7 @@ const jobs = [
 export default function Karriere() {
   return (
     <>
-      {/* Header */}
-      <div className="bg-bk-dark py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-white font-bk-heading mb-4">Karriere</h1>
-          <p className="text-gray-300 text-lg max-w-2xl">Job Perspektiven bei BK – Arbeitsschutz</p>
-        </div>
-      </div>
+      <PageHeader title="Karriere" subtitle="Job Perspektiven bei BK – Arbeitsschutz" />
 
       {/* Intro */}
       <section className="py-16 bg-gray-50">

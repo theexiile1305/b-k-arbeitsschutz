@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import SectionHeading from "@/components/ui/SectionHeading";
 import { buildMetadata } from "@/lib/metadata";
+import PageHeader from "@/components/ui/PageHeader";
 
 export const metadata: Metadata = buildMetadata(
   "Kontakt",
@@ -10,14 +11,10 @@ export const metadata: Metadata = buildMetadata(
 export default function Kontakt() {
   return (
     <>
-      <div className="bg-bk-dark py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-white font-bk-heading mb-4">Kontakt</h1>
-          <p className="text-gray-300 text-lg max-w-2xl">
-            Haben Sie Fragen? Kontaktieren Sie uns für eine unverbindliche Beratung.
-          </p>
-        </div>
-      </div>
+      <PageHeader
+        title="Kontakt"
+        subtitle="Haben Sie Fragen? Kontaktieren Sie uns für eine unverbindliche Beratung."
+      />
 
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

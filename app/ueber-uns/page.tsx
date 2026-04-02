@@ -4,6 +4,7 @@ import Link from "next/link";
 import SectionHeading from "@/components/ui/SectionHeading";
 import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
+import PageHeader from "@/components/ui/PageHeader";
 
 export const metadata: Metadata = buildMetadata(
   "Über uns",
@@ -13,14 +14,10 @@ export const metadata: Metadata = buildMetadata(
 export default function UeberUns() {
   return (
     <>
-      <div className="bg-bk-dark py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-white font-bk-heading mb-4">Über uns</h1>
-          <p className="text-gray-300 text-lg max-w-2xl">
-            Lernen Sie BK Arbeitsschutz kennen - ein Unternehmen, das Sicherheit lebt.
-          </p>
-        </div>
-      </div>
+      <PageHeader
+        title="Über uns"
+        subtitle="Lernen Sie BK Arbeitsschutz kennen - ein Unternehmen, das Sicherheit lebt."
+      />
 
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

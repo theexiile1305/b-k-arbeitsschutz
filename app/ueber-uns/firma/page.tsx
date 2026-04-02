@@ -3,6 +3,7 @@ import Image from "next/image";
 import SectionHeading from "@/components/ui/SectionHeading";
 import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
+import PageHeader from "@/components/ui/PageHeader";
 
 export const metadata: Metadata = buildMetadata(
   "Die Firma",
@@ -12,14 +13,10 @@ export const metadata: Metadata = buildMetadata(
 export default function Firma() {
   return (
     <>
-      <div className="bg-bk-dark py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl font-bold text-white font-bk-heading mb-4">Die Firma</h1>
-          <p className="text-gray-300 text-lg max-w-2xl">
-            BK Arbeitsschutz - gegründet mit der Mission, Arbeitssicherheit neu zu denken.
-          </p>
-        </div>
-      </div>
+      <PageHeader
+        title="Die Firma"
+        subtitle="BK Arbeitsschutz - gegründet mit der Mission, Arbeitssicherheit neu zu denken."
+      />
 
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
