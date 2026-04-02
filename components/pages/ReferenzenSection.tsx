@@ -32,7 +32,7 @@ const testimonials = [
   },
   {
     quote:
-      "Die DGUV V3-Prüfungen wurden schnell und reibungslos organisiert. Alle Unterlagen waren sofort verfügbar – das hat uns bei der nächsten Betriebsprüfung sehr geholfen.",
+      "Die DGUV V3-Prüfungen wurden schnell und reibungslos organisiert. Alle Unterlagen waren sofort verfügbar - das hat uns bei der nächsten Betriebsprüfung sehr geholfen.",
     author: "Stefan W.",
     company: "Industriebetrieb, Sachsen",
     area: "Prüfservice",

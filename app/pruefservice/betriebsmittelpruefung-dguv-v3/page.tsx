@@ -4,6 +4,7 @@ import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentWithImage from "@/components/ui/ContentWithImage";
+import PruefserviceSubpageNavigation from "@/components/ui/PruefserviceSubpageNavigation";
 
 export const metadata: Metadata = buildMetadata(
   "Betriebsmittelprüfung DGUV V3",
@@ -41,6 +42,8 @@ export default function BetriebsmittelpruefungDGUV() {
           </p>
         </div>
       </ContentWithImage>
+
+      <PruefserviceSubpageNavigation />
 
       <CTABlock
         title="DGUV V3 Prüfung beauftragen"

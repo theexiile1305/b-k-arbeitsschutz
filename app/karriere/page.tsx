@@ -5,7 +5,7 @@ import PageHeader from "@/components/ui/PageHeader";
 
 export const metadata: Metadata = buildMetadata(
   "Karriere",
-  "Job Perspektiven bei BK – Arbeitsschutz. Werden Sie Teil unseres Teams."
+  "Job Perspektiven bei BK - Arbeitsschutz. Werden Sie Teil unseres Teams."
 );
 
 const jobs = [
@@ -73,7 +73,7 @@ const jobs = [
 export default function Karriere() {
   return (
     <>
-      <PageHeader title="Karriere" subtitle="Job Perspektiven bei BK – Arbeitsschutz" />
+      <PageHeader title="Karriere" subtitle="Job Perspektiven bei BK - Arbeitsschutz" />
 
       {/* Intro */}
       <section className="py-16 bg-gray-50">
@@ -177,7 +177,7 @@ export default function Karriere() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
             title="Jetzt bewerben"
-            subtitle="Haben Sie Interesse? Schreiben Sie uns – wir freuen uns auf Ihre Nachricht."
+            subtitle="Haben Sie Interesse? Schreiben Sie uns - wir freuen uns auf Ihre Nachricht."
           />
           <form action="/api/contact" method="POST" className="mt-8 space-y-5">
             <input type="hidden" name="source" value="karriere" />

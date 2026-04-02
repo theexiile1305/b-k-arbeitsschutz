@@ -4,6 +4,7 @@ import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentWithImage from "@/components/ui/ContentWithImage";
+import ArbeitsmittelPsaSubpageNavigation from "@/components/ui/ArbeitsmittelPsaSubpageNavigation";
 
 export const metadata: Metadata = buildMetadata(
   "Exoskelett",
@@ -39,6 +40,8 @@ export default function Exoskelett() {
           </ul>
         </div>
       </ContentWithImage>
+
+      <ArbeitsmittelPsaSubpageNavigation />
 
       <CTABlock
         title="Exoskelett-Beratung anfragen"

@@ -195,7 +195,7 @@ export default function Datenschutz() {
             <strong className={strong}>Nationale Datenschutzregelungen in Deutschland: </strong>
             Zusätzlich zu den Datenschutzregelungen der DSGVO gelten nationale Regelungen zum
             Datenschutz in Deutschland. Hierzu gehört insbesondere das Gesetz zum Schutz vor
-            Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz –
+            Missbrauch personenbezogener Daten bei der Datenverarbeitung (Bundesdatenschutzgesetz -
             BDSG). Das BDSG enthält insbesondere Spezialregelungen zum Recht auf Auskunft, zum Recht
             auf Löschung, zum Widerspruchsrecht, zur Verarbeitung besonderer Kategorien
             personenbezogener Daten, zur Verarbeitung für andere Zwecke und zur Übermittlung sowie
@@ -381,17 +381,17 @@ export default function Datenschutz() {
           </p>
           <ul className={`${ul} mt-3`}>
             <li>
-              10 Jahre – Aufbewahrungsfrist für Bücher und Aufzeichnungen, Jahresabschlüsse,
+              10 Jahre - Aufbewahrungsfrist für Bücher und Aufzeichnungen, Jahresabschlüsse,
               Inventare, Lageberichte, Eröffnungsbilanz sowie die zu ihrem Verständnis
               erforderlichen Arbeitsanweisungen und sonstigen Organisationsunterlagen (§ 147 Abs. 1
               Nr. 1 i.V.m. Abs. 3 AO, § 14b Abs. 1 UStG, § 257 Abs. 1 Nr. 1 i.V.m. Abs. 4 HGB).
             </li>
             <li>
-              8 Jahre – Buchungsbelege, wie z.&nbsp;B. Rechnungen und Kostenbelege (§ 147 Abs. 1 Nr.
+              8 Jahre - Buchungsbelege, wie z.&nbsp;B. Rechnungen und Kostenbelege (§ 147 Abs. 1 Nr.
               4 und 4a i.V.m. Abs. 3 Satz 1 AO sowie § 257 Abs. 1 Nr. 4 i.V.m. Abs. 4 HGB).
             </li>
             <li>
-              6 Jahre – Übrige Geschäftsunterlagen: empfangene Handels- oder Geschäftsbriefe,
+              6 Jahre - Übrige Geschäftsunterlagen: empfangene Handels- oder Geschäftsbriefe,
               Wiedergaben der abgesandten Handels- oder Geschäftsbriefe, sonstige Unterlagen, soweit
               sie für die Besteuerung von Bedeutung sind, z.&nbsp;B. Stundenlohnzettel,
               Betriebsabrechnungsbögen, Kalkulationsunterlagen, Preisauszeichnungen, aber auch
@@ -400,7 +400,7 @@ export default function Datenschutz() {
               i.V.m. Abs. 4 HGB).
             </li>
             <li>
-              3 Jahre – Daten, die erforderlich sind, um potenzielle Gewährleistungs- und
+              3 Jahre - Daten, die erforderlich sind, um potenzielle Gewährleistungs- und
               Schadensersatzansprüche oder ähnliche vertragliche Ansprüche und Rechte zu
               berücksichtigen sowie damit verbundene Anfragen zu bearbeiten, basierend auf früheren
               Geschäftserfahrungen und üblichen Branchenpraktiken, werden für die Dauer der

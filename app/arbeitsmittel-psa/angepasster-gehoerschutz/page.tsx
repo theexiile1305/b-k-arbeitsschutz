@@ -3,6 +3,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
 import PageHeader from "@/components/ui/PageHeader";
+import ArbeitsmittelPsaSubpageNavigation from "@/components/ui/ArbeitsmittelPsaSubpageNavigation";
 
 export const metadata: Metadata = buildMetadata(
   "Angepasster Gehörschutz",
@@ -41,6 +42,8 @@ export default function AngepassterGehoerschutz() {
           </div>
         </div>
       </section>
+
+      <ArbeitsmittelPsaSubpageNavigation />
 
       <CTABlock title="Gehörschutz anfragen" buttonText="Jetzt anfragen" buttonHref="/kontakt" />
     </>

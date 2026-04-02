@@ -4,6 +4,7 @@ import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentWithImage from "@/components/ui/ContentWithImage";
+import PruefserviceSubpageNavigation from "@/components/ui/PruefserviceSubpageNavigation";
 
 export const metadata: Metadata = buildMetadata(
   "Regalprüfung",
@@ -34,6 +35,8 @@ export default function Regale() {
           </ul>
         </div>
       </ContentWithImage>
+
+      <PruefserviceSubpageNavigation />
 
       <CTABlock
         title="Regalprüfung beauftragen"

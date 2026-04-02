@@ -4,6 +4,7 @@ import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentWithImage from "@/components/ui/ContentWithImage";
+import AkademieSubpageNavigation from "@/components/ui/AkademieSubpageNavigation";
 
 export const metadata: Metadata = buildMetadata(
   "Sicherheitsbeauftragter",
@@ -38,6 +39,8 @@ export default function Sicherheitsbeauftragter() {
           </ul>
         </div>
       </ContentWithImage>
+
+      <AkademieSubpageNavigation />
 
       <CTABlock
         title="Sicherheitsbeauftragte ausbilden"

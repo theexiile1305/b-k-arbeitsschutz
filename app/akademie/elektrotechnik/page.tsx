@@ -4,6 +4,7 @@ import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentWithImage from "@/components/ui/ContentWithImage";
+import AkademieSubpageNavigation from "@/components/ui/AkademieSubpageNavigation";
 
 export const metadata: Metadata = buildMetadata(
   "Elektrotechnik",
@@ -40,6 +41,8 @@ export default function Elektrotechnik() {
           </ul>
         </div>
       </ContentWithImage>
+
+      <AkademieSubpageNavigation />
 
       <CTABlock
         title="Elektrotechnik-Schulung anfragen"

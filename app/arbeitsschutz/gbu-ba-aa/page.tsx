@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import SectionHeading from "@/components/ui/SectionHeading";
 import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
+import ArbeitsschutzSubpageNavigation from "@/components/ui/ArbeitsschutzSubpageNavigation";
 
 export const metadata: Metadata = buildMetadata(
   "GBU / BA / AA",
@@ -51,6 +52,8 @@ export default function GBU() {
           </div>
         </div>
       </section>
+
+      <ArbeitsschutzSubpageNavigation />
 
       <CTABlock
         title="GBU & Anweisungen professionell erstellen lassen"

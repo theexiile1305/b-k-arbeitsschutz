@@ -4,6 +4,7 @@ import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentWithImage from "@/components/ui/ContentWithImage";
+import ArbeitsschutzSubpageNavigation from "@/components/ui/ArbeitsschutzSubpageNavigation";
 
 export const metadata: Metadata = buildMetadata(
   "Betreuung nach DGUV V2",
@@ -46,6 +47,8 @@ export default function BetreuungDGUV() {
           </ul>
         </div>
       </ContentWithImage>
+      <ArbeitsschutzSubpageNavigation />
+
       <CTABlock
         title="Jetzt DGUV V2 Betreuung anfragen"
         buttonText="Beratungstermin buchen"

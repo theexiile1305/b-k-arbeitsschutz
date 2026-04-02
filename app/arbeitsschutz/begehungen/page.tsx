@@ -4,6 +4,7 @@ import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentWithImage from "@/components/ui/ContentWithImage";
+import ArbeitsschutzSubpageNavigation from "@/components/ui/ArbeitsschutzSubpageNavigation";
 
 export const metadata: Metadata = buildMetadata(
   "Begehungen",
@@ -43,6 +44,8 @@ export default function Begehungen() {
           </p>
         </div>
       </ContentWithImage>
+
+      <ArbeitsschutzSubpageNavigation />
 
       <CTABlock title="Begehung beauftragen" buttonText="Jetzt anfragen" buttonHref="/kontakt" />
     </>

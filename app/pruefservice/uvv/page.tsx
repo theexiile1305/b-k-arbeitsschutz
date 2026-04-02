@@ -4,6 +4,7 @@ import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentWithImage from "@/components/ui/ContentWithImage";
+import PruefserviceSubpageNavigation from "@/components/ui/PruefserviceSubpageNavigation";
 
 export const metadata: Metadata = buildMetadata(
   "UVV-Prüfung",
@@ -37,6 +38,8 @@ export default function UVV() {
           </ul>
         </div>
       </ContentWithImage>
+
+      <PruefserviceSubpageNavigation />
 
       <CTABlock title="UVV-Prüfung beauftragen" buttonText="Jetzt anfragen" buttonHref="/kontakt" />
     </>

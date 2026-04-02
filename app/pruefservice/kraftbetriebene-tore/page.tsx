@@ -4,6 +4,7 @@ import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
 import PageHeader from "@/components/ui/PageHeader";
 import ContentWithImage from "@/components/ui/ContentWithImage";
+import PruefserviceSubpageNavigation from "@/components/ui/PruefserviceSubpageNavigation";
 
 export const metadata: Metadata = buildMetadata(
   "Kraftbetriebene Tore",
@@ -36,6 +37,8 @@ export default function KraftbetriebseneTore() {
           </ul>
         </div>
       </ContentWithImage>
+
+      <PruefserviceSubpageNavigation />
 
       <CTABlock title="Torprüfung beauftragen" buttonText="Jetzt anfragen" buttonHref="/kontakt" />
     </>

@@ -183,7 +183,7 @@ export default function Mitarbeiter() {
               </p>
               <p>
                 Seine technische Expertise und sein strukturiertes Vorgehen machen ihn zu einem
-                unverzichtbaren Teil des Prüfteams – ob bei elektrischen Betriebsmitteln oder bei
+                unverzichtbaren Teil des Prüfteams - ob bei elektrischen Betriebsmitteln oder bei
                 der Beurteilung komplexer Anlagen.
               </p>
               <p>
