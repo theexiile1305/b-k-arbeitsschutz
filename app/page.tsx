@@ -3,6 +3,7 @@ import HomeHero from "@/components/pages/HomeHero";
 import ServicesOverview from "@/components/pages/ServicesOverview";
 import AboutPreview from "@/components/pages/AboutPreview";
 import ReferenzenSection from "@/components/pages/ReferenzenSection";
+import DEKRASection from "@/components/pages/DEKRASection";
 import CTABlock from "@/components/ui/CTABlock";
 
 export const metadata: Metadata = {
@@ -15,6 +16,7 @@ export default function Home() {
   return (
     <>
       <HomeHero />
+      <DEKRASection />
       <ServicesOverview />
       <AboutPreview />
       <ReferenzenSection />
