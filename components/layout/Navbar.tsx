@@ -65,6 +65,7 @@ const navItems: NavItem[] = [
     ],
   },
   { label: "Referenzen", href: "/referenzen" },
+  { label: "Karriere", href: "/karriere" },
 ];
 
 export default function Navbar() {
