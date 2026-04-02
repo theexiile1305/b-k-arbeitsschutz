@@ -3,6 +3,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 import CTABlock from "@/components/ui/CTABlock";
 import { buildMetadata } from "@/lib/metadata";
 import ArbeitsschutzSubpageNavigation from "@/components/ui/ArbeitsschutzSubpageNavigation";
+import ContentWithImage from "@/components/ui/ContentWithImage";
 
 export const metadata: Metadata = buildMetadata(
   "GBU / BA / AA",
@@ -22,36 +23,35 @@ export default function GBU() {
         </div>
       </div>
 
-      <section className="py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="space-y-12">
-            <div>
-              <SectionHeading title="Gefährdungsbeurteilung (GBU)" />
-              <p className="text-bk-gray leading-relaxed">
-                Die Gefährdungsbeurteilung ist das zentrale Instrument des Arbeitsschutzes. Wir
-                ermitteln systematisch alle Gefährdungen an Ihren Arbeitsplätzen und entwickeln
-                wirksame Schutzmaßnahmen - dokumentiert nach gesetzlichen Anforderungen.
-              </p>
-            </div>
-            <div>
-              <SectionHeading title="Betriebsanweisungen (BA)" />
-              <p className="text-bk-gray leading-relaxed">
-                Betriebsanweisungen regeln den sicheren Umgang mit Gefahrstoffen, Maschinen und
-                Anlagen. Wir erstellen praxistaugliche Anweisungen, die Ihre Mitarbeiter wirklich
-                verstehen und anwenden.
-              </p>
-            </div>
-            <div>
-              <SectionHeading title="Arbeitsanweisungen (AA)" />
-              <p className="text-bk-gray leading-relaxed">
-                Arbeitsanweisungen beschreiben Tätigkeiten Schritt für Schritt und helfen dabei,
-                Fehler zu vermeiden. Wir entwickeln maßgeschneiderte Anweisungen für Ihre
-                spezifischen Arbeitsprozesse.
-              </p>
-            </div>
-          </div>
+      <ContentWithImage
+        imageSrc="/gbu-ba-aa.png"
+        imageAlt="Symbolbild für Gefährdungsbeurteilungen, Betriebsanweisungen und Arbeitsanweisungen"
+      >
+        <div>
+          <SectionHeading title="Gefährdungsbeurteilung (GBU)" />
+          <p className="text-bk-gray leading-relaxed">
+            Die Gefährdungsbeurteilung ist das zentrale Instrument des Arbeitsschutzes. Wir
+            ermitteln systematisch alle Gefährdungen an Ihren Arbeitsplätzen und entwickeln wirksame
+            Schutzmaßnahmen - dokumentiert nach gesetzlichen Anforderungen.
+          </p>
         </div>
-      </section>
+        <div>
+          <SectionHeading title="Betriebsanweisungen (BA)" />
+          <p className="text-bk-gray leading-relaxed">
+            Betriebsanweisungen regeln den sicheren Umgang mit Gefahrstoffen, Maschinen und Anlagen.
+            Wir erstellen praxistaugliche Anweisungen, die Ihre Mitarbeiter wirklich verstehen und
+            anwenden.
+          </p>
+        </div>
+        <div>
+          <SectionHeading title="Arbeitsanweisungen (AA)" />
+          <p className="text-bk-gray leading-relaxed">
+            Arbeitsanweisungen beschreiben Tätigkeiten Schritt für Schritt und helfen dabei, Fehler
+            zu vermeiden. Wir entwickeln maßgeschneiderte Anweisungen für Ihre spezifischen
+            Arbeitsprozesse.
+          </p>
+        </div>
+      </ContentWithImage>
 
       <ArbeitsschutzSubpageNavigation />
 
