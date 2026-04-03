@@ -6,42 +6,42 @@ const testimonials = [
     quote:
       "BK Arbeitsschutz hat unsere Gefährdungsbeurteilungen vollständig modernisiert und unser Team professionell unterwiesen. Die Zusammenarbeit war unkompliziert und äußerst kompetent.",
     author: "Thomas M.",
-    company: "Produktionsbetrieb, Bayern",
+    company: "Produktionsbetrieb, Dachau",
     area: "Arbeitsschutz",
   },
   {
     quote:
       "Die Schulungen der BK Akademie sind praxisnah und auf den Punkt. Unsere Mitarbeiter sind begeistert - und wir sind endlich rechtssicher aufgestellt.",
     author: "Sandra K.",
-    company: "Logistikunternehmen, NRW",
+    company: "Logistikunternehmen, Gramisch-Partenkirchen",
     area: "Akademie",
   },
   {
     quote:
       "Der Prüfservice ist zuverlässig, termingerecht und die Dokumentation vorbildlich. Wir können BK Arbeitsschutz jedem mittelständischen Betrieb empfehlen.",
     author: "Markus R.",
-    company: "Handwerksbetrieb, Baden-Württemberg",
+    company: "Handwerksbetrieb, Olching",
     area: "Prüfservice",
   },
   {
     quote:
       "Dank der professionellen Brandschutzberatung durch BK Arbeitsschutz sind wir nun optimal auf den Ernstfall vorbereitet. Die Begehungen wurden gründlich und effizient durchgeführt.",
     author: "Julia H.",
-    company: "Pflegeeinrichtung, Bayern",
+    company: "Pflegeeinrichtung, Starnberg",
     area: "Brandschutz",
   },
   {
     quote:
       "Die DGUV V3-Prüfungen wurden schnell und reibungslos organisiert. Alle Unterlagen waren sofort verfügbar - das hat uns bei der nächsten Betriebsprüfung sehr geholfen.",
     author: "Stefan W.",
-    company: "Industriebetrieb, Sachsen",
+    company: "Industriebetrieb, Kirchheim",
     area: "Prüfservice",
   },
   {
     quote:
       "Unser Sicherheitsbeauftragter hat die Ausbildung bei der BK Akademie absolviert und ist seitdem ein echter Gewinn für unser Unternehmen. Sehr empfehlenswerte Kurse!",
     author: "Andrea B.",
-    company: "Einzelhandel, Hessen",
+    company: "Einzelhandel, Bad Tölz",
     area: "Akademie",
   },
 ];
