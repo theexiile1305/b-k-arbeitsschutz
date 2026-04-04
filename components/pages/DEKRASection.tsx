@@ -7,7 +7,7 @@ export default function DEKRASection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading
           title="Unsere Zertifizierung"
-          subtitle="Exklusiver Ansprechpartner unter der Flage der DEKRA"
+          subtitle="Exklusiver Ansprechpartner unter der Flagge der DEKRA"
           centered
         />
         <div className="flex flex-col items-center gap-6 mt-12">
