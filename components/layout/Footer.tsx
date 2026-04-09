@@ -125,8 +125,31 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-8 border-t border-bk-mid flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-gray-400">
-          <p>© {new Date().getFullYear()} BK Arbeitsschutz. Alle Rechte vorbehalten.</p>
-          <div className="flex items-center gap-4">
+          <p className="sm:flex-1">
+            © {new Date().getFullYear()} BK Arbeitsschutz. Alle Rechte vorbehalten.
+          </p>
+          <p className="sm:flex-1 text-center">
+            Built with ❤️ by{" "}
+            <a
+              href="https://github.com/theexiile1305"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              theexiile1305
+            </a>
+            . Please report any issues at{" "}
+            <a
+              href="https://github.com/theexiile1305/b-k-arbeitsschutz/issues"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+            >
+              GitHub
+            </a>
+            .
+          </p>
+          <div className="sm:flex-1 flex items-center justify-end gap-4">
             <a
               href="https://www.instagram.com/bk_arbeitsschutz/"
               target="_blank"
