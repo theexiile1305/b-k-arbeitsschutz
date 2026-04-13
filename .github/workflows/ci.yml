@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 24.14.0
           cache: pnpm
-      - run: pnpm install --frozen-lockfile
+      - run: pnpm install --frozen-lockfile --prod=false
         env:
           PNPM_ENABLE_LIFECYCLE_SCRIPTS: true
       - run: pnpm lint
@@ -38,7 +38,7 @@ jobs:
         with:
           node-version: 24.14.0
           cache: pnpm
-      - run: pnpm install --frozen-lockfile
+      - run: pnpm install --frozen-lockfile --prod=false
         env:
           PNPM_ENABLE_LIFECYCLE_SCRIPTS: true
       - run: pnpm build
