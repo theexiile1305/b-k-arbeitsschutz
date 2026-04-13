@@ -19,7 +19,6 @@ jobs:
         with:
           node-version: 24.14.0
           cache: pnpm
-      - run: pnpm approve-builds sharp unrs-resolver
       - run: pnpm install --frozen-lockfile
       - run: pnpm lint
       - run: pnpm format:check
@@ -37,7 +36,6 @@ jobs:
         with:
           node-version: 24.14.0
           cache: pnpm
-      - run: pnpm approve-builds sharp unrs-resolver
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
         env:
