@@ -19,8 +19,9 @@ jobs:
         with:
           node-version: 24.14.0
           cache: pnpm
-      - run: pnpm config set ignore-scripts false
       - run: pnpm install --frozen-lockfile
+        env:
+          PNPM_ENABLE_LIFECYCLE_SCRIPTS: true
       - run: pnpm lint
       - run: pnpm format:check
 
@@ -37,8 +38,9 @@ jobs:
         with:
           node-version: 24.14.0
           cache: pnpm
-      - run: pnpm config set ignore-scripts false
       - run: pnpm install --frozen-lockfile
+        env:
+          PNPM_ENABLE_LIFECYCLE_SCRIPTS: true
       - run: pnpm build
         env:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
