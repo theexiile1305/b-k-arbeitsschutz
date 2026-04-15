@@ -21,7 +21,7 @@ const securityHeaders = [
       "img-src 'self' data:",
       "font-src 'self'",
       "connect-src 'self'",
-      "frame-src 'self' https://outlook.office.com",
+      "frame-src 'self' https://outlook.office.com https://bookings.cloud.microsoft",
       "frame-ancestors 'none'",
       "object-src 'none'",
       "base-uri 'self'",

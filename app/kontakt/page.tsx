@@ -108,7 +108,7 @@ export default function Kontakt() {
                 Nutzen Sie unser Online-Buchungssystem für einen schnellen Termin.
               </p>
               <iframe
-                src="https://outlook.office.com/book/Arbeitssicherheitsbetreuung@b-k-management.de/?ismsaljsauthenabled=true"
+                src="https://outlook.office.com/book/Beratungstermin@b-k-arbeitsschutz.de/"
                 width="100%"
                 height="500"
                 className="rounded-xl shadow-md"
