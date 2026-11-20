@@ -67,6 +67,16 @@ export default function Footer() {
                   Arbeitsmittel & PSA
                 </Link>
               </li>
+              <li>
+                <a
+                  href="https://shop.bktools.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  Schulungsplattform & Shop
+                </a>
+              </li>
             </ul>
           </div>
 

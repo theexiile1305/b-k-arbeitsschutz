@@ -8,6 +8,8 @@ interface HeroProps {
   imageAlt: string;
   ctaText?: string;
   ctaHref?: string;
+  secondaryCtaText?: string;
+  secondaryCtaHref?: string;
   overlay?: boolean;
   sloganSrc?: string;
 }
@@ -19,6 +21,8 @@ export default function Hero({
   imageAlt,
   ctaText,
   ctaHref,
+  secondaryCtaText,
+  secondaryCtaHref,
   overlay = true,
 }: HeroProps) {
   return (
@@ -38,14 +42,26 @@ export default function Hero({
             {title}
           </h1>
           {subtitle && <p className="text-xl text-gray-200 mb-8 leading-relaxed">{subtitle}</p>}
-          {ctaText && ctaHref && (
-            <Link
-              href={ctaHref}
-              className="inline-block bg-bk-light hover:bg-white hover:text-bk-dark text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors shadow-xl"
-            >
-              {ctaText}
-            </Link>
-          )}
+          <div className="flex flex-wrap items-center gap-4">
+            {ctaText && ctaHref && (
+              <Link
+                href={ctaHref}
+                className="inline-block bg-bk-light hover:bg-white hover:text-bk-dark text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors shadow-xl"
+              >
+                {ctaText}
+              </Link>
+            )}
+            {secondaryCtaText && secondaryCtaHref && (
+              <a
+                href={secondaryCtaHref}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border-2 border-white text-white hover:bg-white hover:text-bk-dark font-bold px-8 py-3.5 rounded-lg text-lg transition-colors shadow-xl"
+              >
+                {secondaryCtaText}
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </section>
