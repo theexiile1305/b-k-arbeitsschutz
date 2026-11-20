@@ -9,6 +9,8 @@ export default function HomeHero() {
       subtitle="Professionelle Arbeitsschutzlösungen für Unternehmen - von der Beratung bis zur Umsetzung."
       ctaText="Jetzt Beratungstermin buchen"
       ctaHref="/kontakt"
+      secondaryCtaText="Schulungsplattform & Shop"
+      secondaryCtaHref="https://shop.bktools.app"
     />
   );
 }

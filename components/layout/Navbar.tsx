@@ -68,6 +68,22 @@ const navItems: NavItem[] = [
   { label: "Karriere", href: "/karriere" },
 ];
 
+const shopItem = {
+  label: "Schulungsplattform & Shop",
+  href: "https://shop.bktools.app",
+};
+
+const shopIcon = (
+  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M3 3h2l.4 2M7 13h10l3-8H5.4M7 13L5.4 5M7 13l-2.3 2.3c-.6.6-.2 1.7.7 1.7H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
+    />
+  </svg>
+);
+
 export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [openMobileMenu, setOpenMobileMenu] = useState<string | null>(null);
@@ -134,6 +150,17 @@ export default function Navbar() {
               )
             )}
           </nav>
+
+          {/* Schulungsplattform & Shop (desktop) */}
+          <a
+            href={shopItem.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden lg:inline-flex items-center gap-2 ml-2 px-3.5 py-2 text-sm font-semibold text-white rounded-full bg-gradient-to-r from-bk-mid to-bk-light shadow-md ring-1 ring-bk-light/30 hover:shadow-lg hover:-translate-y-0.5 hover:from-bk-dark hover:to-bk-mid transition-all duration-200"
+          >
+            {shopIcon}
+            {shopItem.label}
+          </a>
 
           {/* CTA Button (desktop) */}
           <div className="hidden lg:block">
@@ -236,6 +263,16 @@ export default function Navbar() {
                 )}
               </div>
             ))}
+            <a
+              href={shopItem.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileOpen(false)}
+              className="flex items-center justify-center gap-2 mt-2 py-2.5 rounded-full bg-gradient-to-r from-bk-mid to-bk-light text-white font-semibold text-sm shadow-md"
+            >
+              {shopIcon}
+              {shopItem.label}
+            </a>
             <Link
               href="/kontakt"
               onClick={() => setMobileOpen(false)}
