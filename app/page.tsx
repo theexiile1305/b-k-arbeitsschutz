@@ -2,7 +2,6 @@ import { Metadata } from "next";
 import HomeHero from "@/components/pages/HomeHero";
 import ServicesOverview from "@/components/pages/ServicesOverview";
 import AboutPreview from "@/components/pages/AboutPreview";
-import ReferenzenSection from "@/components/pages/ReferenzenSection";
 import DEKRASection from "@/components/pages/DEKRASection";
 import CTABlock from "@/components/ui/CTABlock";
 
@@ -19,7 +18,6 @@ export default function Home() {
       <DEKRASection />
       <ServicesOverview />
       <AboutPreview />
-      <ReferenzenSection />
       <CTABlock
         title="Jetzt Beratungstermin buchen"
         subtitle="Unverbindlich und kostenlos - sprechen Sie mit unseren Experten."
